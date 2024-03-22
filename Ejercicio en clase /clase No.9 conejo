@@ -1,1 +1,22 @@
+// Nombre: Lucas Morales Diana Jazmin
+// Grupo: 1TM13
+// Fecha: 20/03/24
+
+
+#include <iostream>
+
+float numeroconejos = 0;
+float alimentototal = 0;
+using namespace std;
+
+int main()
+{
+    cout<<"cuantos conejos hay]?"<<endl;
+    cin >> numeroconejos;
+    
+    alimentototal= numeroconejos*50;
+    
+    cout<<"los conejos consumen un total de alimento = "<< alimentototal<<"g.";
+    
+}
 
